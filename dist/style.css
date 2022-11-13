@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(45deg, #000000 0%, #6944A4 50%, #FFFFFF 100%);
+    text-align: center;
+}
+
+header {
+    font-size: 40px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    opacity: .75;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.managerbox,
+.engineerbox,
+.internbox {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 25
+}
+
+h4 {
+    font-weight: bold
+}

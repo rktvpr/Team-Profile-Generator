@@ -1,4 +1,15 @@
 # Team-Profile-Generator
+[Github Repo](https://github.com/rktvpr/Team-Profile-Generator)
+[Video walkthrough](https://drive.google.com/file/d/1NRykeKp6_NtMa00i4AaVdp5_vzYCXX2H/view?usp=sharing)
+
+# Description
+This is an application designed for management teams to input Manager and Employee information. Identifying their position and other useful information. A webpage is generated from user terminal inputs.
+
+# Installation
+Inquirer and Jest is required to run this application
+
+# Usage
+To use this application type 'node index.js' into the command line, then follow the prompts until you have filled out all the information needed, then open the dist folder and HTML will be generated for you displaying your team and all your info.
 
 # Acceptance Criteria
 ```md
@@ -28,3 +39,12 @@ THEN I am prompted to enter the intern’s name, ID, email, and school, and I am
 WHEN I decide to finish building my team
 THEN I exit the application, and the HTML is generated
 ```
+
+# License
+MIT License 2022 Rick Welte
+
+# Contributions
+Rick Welte
+
+# Questions 
+If you have any questions please contact me by email: RKTVPR@gmail.com

@@ -3,7 +3,7 @@
 [Video walkthrough](https://drive.google.com/file/d/1NRykeKp6_NtMa00i4AaVdp5_vzYCXX2H/view?usp=sharing)
 
 # Description
-This is an application designed for management teams to input Manager and Employee information. Identifying their position and other useful information. A webpage is generated from user terminal inputs.
+This is an application designed for management teams to input Manager and Employee information. Identifying their position and other useful information. A webpage is generated from user terminal inputs. The creation of this page helped me learn about Object Oriented Programming and testing with Jest. I wrote test files to make sure everything operates correctly and used Inquirer for the command line prompts
 
 # Installation
 Inquirer and Jest is required to run this application
@@ -11,40 +11,11 @@ Inquirer and Jest is required to run this application
 # Usage
 To use this application type 'node index.js' into the command line, then follow the prompts until you have filled out all the information needed, then open the dist folder and HTML will be generated for you displaying your team and all your info.
 
-# Acceptance Criteria
-```md
-GIVEN a command-line application that accepts user input
-
-WHEN I am prompted for my team members and their information
-THEN an HTML file is generated that displays a nicely formatted team roster based on user input
-
-WHEN I click on an email address in the HTML
-THEN my default email program opens and populates the TO field of the email with the address
-
-WHEN I click on the GitHub username
-THEN that GitHub profile opens in a new tab
-
-WHEN I start the application
-THEN I am prompted to enter the team manager’s name, employee ID, email address, and office number
-
-WHEN I enter the team manager’s name, employee ID, email address, and office number
-THEN I am presented with a menu with the option to add an engineer or an intern or to finish building my team
-
-WHEN I select the engineer option
-THEN I am prompted to enter the engineer’s name, ID, email, and GitHub username, and I am taken back to the menu
-
-WHEN I select the intern option
-THEN I am prompted to enter the intern’s name, ID, email, and school, and I am taken back to the menu
-
-WHEN I decide to finish building my team
-THEN I exit the application, and the HTML is generated
-```
-
 # License
 MIT License 2022 Rick Welte
 
 # Contributions
 Rick Welte
 
-# Questions 
+# Contact Me
 If you have any questions please contact me by email: RKTVPR@gmail.com
